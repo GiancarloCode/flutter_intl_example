@@ -1,0 +1,33 @@
+name: flutter_intl_example
+description: Flutter intl example
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+flutter_intl:
+  enabled: true
+  
+  # Optional
+  # Default: en
+  # <language code>[_<script code>][_<country code>]
+  main_locale: en
+  
+  # Optional
+  # Default: S
+  # Suggested alternative name: AppLocalizations
+  class_name: S
