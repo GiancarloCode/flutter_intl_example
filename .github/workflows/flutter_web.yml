@@ -3,9 +3,7 @@ on:
   push:
     branches:
       - master
-    paths:
-      - 'flutter_intl_with_flutter_bloc_example/**'
-      - '.github/workflows/flutter_web/yaml'
+      
 jobs:
   build:
     runs-on: ubuntu-latest
