@@ -1,0 +1,14 @@
+{
+    "simpleText": "Hola mundo",
+    "textWithPlaceholder": "Bienvenido {name}",
+    "textWithPlaceholders": "Mi nombre es {lastName}, {firstName} {lastName}",
+    "@textWithPlaceholders": {
+        "placeholders": {
+            "firstName": {},
+            "lastName": {}
+        }
+    },
+    "textWithPlural": "{howMany, plural, one{Tienes 1 notificación} other{Tienes {howMany} notificaciones}}",
+    "language": "Idioma",
+    "systemLanguage": "Idioma del sistema"
+}
